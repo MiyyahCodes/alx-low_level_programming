@@ -1,21 +1,16 @@
 #include "main.h"
-
 /**
- * print_line - check for a digit
- * @n : number of _ to be printed
- * Return:void
+ * print_line - print  a line
+ * @n: numbers of straigh lines
+ * Return: Always 0.
  */
-
 void print_line(int n)
 {
+int l;
 
-	int i = 0;
-
-	while (i < n && n > 0)
-	{
-		_putchar('_');
-		i++;
-	}
-	_putchar('\n');
-
+for (l = 1; l <= n; l++)
+{
+_putchar(95);
+}
+_putchar('\n');
 }
