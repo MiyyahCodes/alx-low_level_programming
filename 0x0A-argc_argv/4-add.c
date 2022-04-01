@@ -16,7 +16,7 @@ int _isnumber(char *s)
 
 	i = 0, d = 0, check = 1;
 	if (*s == '-')
-		i++
+		i++;
 	for (; *(s + i) != 0; i++)
 	{
 		d = isdigit(*(s + i));
