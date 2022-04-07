@@ -39,7 +39,7 @@ void _is_zero(char *argv[])
  * @ar: char array.
  * @lar: length of the char array.
  *
- * Return: pointer of a char array
+ * Return: pointer of a char array.
  */
 char *_initialize_array(char *ar, int lar)
 {
@@ -76,7 +76,7 @@ int _checknum(char *argv[], int n)
 /**
  * main - Entry point.
  * program that multiplies two positive numbers.
- * @argc: number of arguments
+ * @argc: number of arguments.
  * @argv: arguments vector.
  *
  * Return: 0 - success.
@@ -105,7 +105,7 @@ int main(int argc, char *argv[])
 					nout[k - 1] = (add / 10) + '0';
 				nout[k] = (add % 10) + '0';
 			}
-	 	i = ln1 - 1, j--, addl = 0, ca++, k = lnout - (1 + ca);
+			i = ln1 - 1, j--, addl = 0, ca++, k = lnout - (1 + ca);
 		}
 		if (j < 0)
 		{
