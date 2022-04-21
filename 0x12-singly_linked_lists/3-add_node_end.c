@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * add_node_end - this adds a new note at the end 
- * @head: this is the head of the linked list.
+ * add_node_end - this adds a new node at the end
+ * @head: head of the linked list.
  * @str: the string to store in the list.
- * Return: the address of the head.
+ * Return: address of the head.
  */
 
 list_t *add_node_end(list_t **head, const char *str)
