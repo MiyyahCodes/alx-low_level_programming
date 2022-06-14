@@ -1,15 +1,14 @@
 #include "main.h"
 /**
-*_puts - prints a string
-* @str: string to print
-*
-* Description: prints a string
-* On success: return the number of characters printed
-*/
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
 void _puts(char *str)
 {
 while (*str)
 _putchar(*str++);
-
 _putchar('\n');
 }
